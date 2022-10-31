@@ -76,7 +76,7 @@ flutter:
   fonts:
     - family: Noto
       fonts:
-        - asset: fonts/NotoSerifJP-Regular.ttf
+        - asset: fonts/NotoSerifJP-Regular.otf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
