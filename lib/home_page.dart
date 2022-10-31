@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:jewellery_auction/model/model_data.dart';
 import 'package:jewellery_auction/widgets/custom_app_bar.dart';
+import 'package:jewellery_auction/widgets/custom_nav_bar.dart';
 import 'package:jewellery_auction/widgets/search_bar.dart';
 
 class HomePage extends StatelessWidget {
@@ -203,6 +204,7 @@ class HomePage extends StatelessWidget {
             ],
           ),
         ),
+        bottomNavigationBar: CustomNavBar(),
       ),
     );
   }
