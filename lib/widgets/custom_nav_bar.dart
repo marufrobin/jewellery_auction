@@ -32,11 +32,15 @@ class CustomNavBar extends StatelessWidget {
           Icon(
             icon,
             size: 30,
+            color: Colors.orange,
           ),
           SizedBox(
             height: 4,
           ),
-          Text("$pageName")
+          Text(
+            "$pageName",
+            style: TextStyle(color: Colors.orange),
+          )
         ],
       ),
     );
